@@ -35,5 +35,5 @@ alignment = 1
 [node name="Rundown" parent="HBox" instance=ExtResource("2_yhv25")]
 layout_mode = 2
 
-[node name="Tree" parent="HBox" instance=ExtResource("3_kufp4")]
+[node name="Scheme" parent="HBox" instance=ExtResource("3_kufp4")]
 layout_mode = 2

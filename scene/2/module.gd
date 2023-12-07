@@ -4,12 +4,11 @@ extends Area2D
 @onready var cp2d = $CollisionPolygon2D
 @onready var p2d = $Polygon2D
 
-
-var tree = null
+var scheme = null
 
 
 func set_attributes(input_: Dictionary) -> void:
-	tree = input_.tree
+	scheme = input_.scheme
 	position = input_.position
 	
 	init_vertexs()
@@ -26,4 +25,4 @@ func init_vertexs() -> void:
 	
 	cp2d.set_polygon(vertexs)
 	p2d.set_polygon(vertexs)
-	p2d.set_color(Global.color.tree.module)
+	p2d.set_color(Global.color.scheme.module)

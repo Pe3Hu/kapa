@@ -26,6 +26,7 @@ func init_arr() -> void:
 	arr.edge = [1, 2, 3, 4, 5, 6]
 	arr.root = ["strength", "dexterity", "intellect", "will"]
 	arr.branch = ["volume","resistance","tension","replenishment","inside","outside","reaction"]
+	arr.scheme = ["module", "connector"]
 
 
 func init_num() -> void:
@@ -121,7 +122,7 @@ func init_scene() -> void:
 	
 	scene.aspect = load("res://scene/2/aspect.tscn")
 	scene.module = load("res://scene/2/module.tscn")
-	pass
+	scene.connector = load("res://scene/2/connector.tscn")
 
 
 func init_vec():
@@ -134,6 +135,8 @@ func init_vec():
 	vec.size.aspect = Vector2(32, 32) * 2
 	vec.size.box = Vector2(100, 100)
 	vec.size.bar = Vector2(120, 12)
+	
+	vec.size.scheme = Vector2(900, 700)
 	
 	init_window_size()
 
@@ -148,9 +151,9 @@ func init_window_size():
 func init_color():
 	var h = 360.0
 	
-	color.tree = {}
-	color.tree.module = Color.from_hsv(270 / h, 0.9, 0.7)
-	color.tree.connector = Color.from_hsv(30 / h, 0.9, 0.7)
+	color.scheme = {}
+	color.scheme.module = Color.from_hsv(270 / h, 0.9, 0.7)
+	color.scheme.connector = Color.from_hsv(30 / h, 0.9, 0.7)
 
 
 func save(path_: String, data_: String):

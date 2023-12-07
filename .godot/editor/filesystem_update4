@@ -16,3 +16,7 @@ res://scene/2/gate.tscn
 res://scene/2/gate.gd
 res://scene/0/icon.gd
 res://scene/2/scheme.tscn
+res://scene/2/connector.gd
+res://scene/2/scheme.gd
+res://scene/2/module.gd
+res://scene/2/connector.tscn

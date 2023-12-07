@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn8scu3o82y47"]
+
+[ext_resource type="Script" path="res://scene/2/connector.gd" id="1_75j7y"]
+
+[node name="Connector" type="Line2D"]
+script = ExtResource("1_75j7y")

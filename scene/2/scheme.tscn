@@ -1,4 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cxgt1g3awqp3e"]
+[gd_scene load_steps=3 format=3 uid="uid://cxgt1g3awqp3e"]
+
+[ext_resource type="Script" path="res://scene/2/scheme.gd" id="1_7j7n3"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7paps"]
 
@@ -17,8 +19,12 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 4
 size_flags_vertical = 4
+script = ExtResource("1_7j7n3")
 
 [node name="BG" type="Panel" parent="."]
-visible = false
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_7paps")
+
+[node name="Connectors" type="Node2D" parent="."]
+
+[node name="Modules" type="Node2D" parent="."]
