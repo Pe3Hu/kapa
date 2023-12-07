@@ -20,3 +20,7 @@ res://scene/2/connector.gd
 res://scene/2/scheme.gd
 res://scene/2/module.gd
 res://scene/2/connector.tscn
+res://scene/0/sketch.tscn
+res://scene/0/sketch.gd
+res://scene/1/maze.tscn
+res://scene/1/maze.gd
